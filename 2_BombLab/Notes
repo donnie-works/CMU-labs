@@ -1,0 +1,26 @@
+b *phase_6+52
+b *phase_6+71
+
+b *phase_6+32
+b *phase_6+42
+
+b *phase_6+81
+
+x/10i phase_6+52
+x/10i phase_6+32
+
+
+User input:
+(gdb) x/a 0x7fffffffe2f4
+0x7fffffffe2f4:	0x200000003
+(gdb) x/a 0x7fffffffe2f8
+0x7fffffffe2f8:	0x100000002
+(gdb) x/a 0x7fffffffe300
+0x7fffffffe300:	0x500000006
+(gdb) x/a 0x7fffffffe304
+0x7fffffffe304:	0xf7c8097f00000005
+(gdb) x/a 0x7fffffffe2fc
+0x7fffffffe2fc:	0x600000001
+(gdb) x/a 0x7fffffffe2f0
+0x7fffffffe2f0:	0x300000004
+
